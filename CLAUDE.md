@@ -23,39 +23,68 @@
 ## Repository Overview
 
 ### Project Purpose
-<!-- TO BE UPDATED: Add project description once codebase is populated -->
-This repository is currently being initialized. Update this section with:
-- What the project does
-- Key features and functionality
-- Target users or use cases
-- Technology stack
+
+This repository serves as a comprehensive study resource for the **AWS Certified Cloud Practitioner (CLF-C02)** certification exam.
+
+**Key Features:**
+- Complete study guide covering all 13 exam topics
+- Practice questions organized by domain
+- Quick-reference cheat sheets
+- Study progress tracker
+- Mock exam templates
+
+**Target Users:**
+- Individuals preparing for AWS Cloud Practitioner certification
+- Students learning AWS fundamentals
+- IT professionals transitioning to cloud computing
+
+**Content Type:**
+- Documentation (Markdown files)
+- Study materials and educational resources
 
 ### Repository Status
-- **Current State:** Empty repository, initialization in progress
+- **Current State:** Active exam preparation repository
 - **Branch Strategy:** Feature branches following `claude/*` naming convention
 - **Remote:** Local proxy configuration
+- **Purpose:** Educational content for AWS certification
 
 ---
 
 ## Codebase Structure
 
 ### Directory Organization
-<!-- TO BE UPDATED: Add actual directory structure once project is populated -->
 
 ```
 swm/
-├── .git/                 # Git configuration
-├── CLAUDE.md            # This file - AI assistant guide
-└── [TO BE ADDED]        # Project files will be added here
+├── .git/                          # Git configuration
+├── CLAUDE.md                      # AI assistant development guide
+├── README.md                      # Main documentation and study plan
+├── STUDY-TRACKER.md              # Personal progress tracker
+├── docs/
+│   └── AWS-Cloud-Fundamentals.md # Comprehensive study guide (all 13 topics)
+├── practice/
+│   ├── questions-by-domain/      # Practice questions organized by exam domain
+│   │   ├── domain1-cloud-concepts.md
+│   │   ├── domain2-security-compliance.md
+│   │   └── ... (additional domains)
+│   └── mock-exams/               # Full-length practice exams
+├── cheat-sheets/                  # Quick reference guides
+│   ├── 01-cloud-concepts.md
+│   ├── 02-services-comparison.md
+│   └── ... (additional cheat sheets)
+└── tools/                         # Study utilities and scripts
 ```
 
 ### Key Files and Their Purposes
-<!-- TO BE UPDATED: Document important files as they are added -->
 
 | File/Directory | Purpose | When to Modify |
 |---------------|---------|----------------|
-| CLAUDE.md | AI assistant documentation | When workflows or conventions change |
-| [TBD] | [TBD] | [TBD] |
+| README.md | Study plan, repository overview, exam details | When adding new resources or study plans |
+| CLAUDE.md | AI assistant documentation | When workflows change |
+| STUDY-TRACKER.md | Track study progress | Throughout exam preparation |
+| docs/AWS-Cloud-Fundamentals.md | Main study content | When AWS updates services or exam content |
+| practice/questions-by-domain/ | Domain-specific practice | When adding new questions or topics |
+| cheat-sheets/ | Quick reference materials | When adding new services or concepts |
 
 ---
 
